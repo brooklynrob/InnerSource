@@ -10,10 +10,10 @@
 | Backlog, Scheduling, and Prioritization 
 | Development Process & Tooling (Transparency :: Development Process & Tools) | | It's common for open source repositories to be configured such that builds, using tools such as TravisCI, CircleCI, or GitHub Actions, can be triggered and/or configured to be triggered, by project maintainers. Conditions for which builds are set to be run are often related to particular forms of branch merges to the main (a.k.a., "master") branch and/or some or all accepted pull requests. 
 
-| Collaboration | | | | |
+| Collaboration | | | | 
 | Documentation and Content (Helpful Resources) |
 | Processes and Policies | 
-| Incentives and Recognition (Rewards) | | | | Participation and contribution to inner sourced projects, including and especially projects beyond one's core team, group, and/or business unit, can be accounted for in the company's performance management system and directly contribute to decisions about incentive compensation -- i.e., such "assists" are formally recognized as important work and rewarded as such | |
+| Incentives and Recognition (Rewards) | | | Participation and contribution to inner sourced projects, including and especially projects beyond one's core team, group, and/or business unit, can be accounted for in the company's performance management system and directly contribute to decisions about incentive compensation -- i.e., such "assists" are formally recognized as important work and rewarded as such |
 
 (Items in parens are corresponding item in the [InnerSourcePatterns Maturity Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/a9e136eb57fd927c12ee27827e35cd7215226e53/patterns/2-structured/maturity-model.md))
 
