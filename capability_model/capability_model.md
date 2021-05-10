@@ -9,7 +9,6 @@
 | ROADMAPS (Transparency :: Plans & Products) | No project roadmap exists or roadmap is not shared publicly (P-0: Individuals and teams do not regularly disclose their plans or products to multiple stakeholders. No formal actions exists at the organization.) | | | | A ROADMAP.md or similar document exists in the root of the distributed version control system (e.g., GitHub); The roadmap is also featured in a prominent place on the projects website, if one exists
 | Backlog, Scheduling, and Prioritization 
 | Development Process & Tooling (Transparency :: Development Process & Tools) | | It's common for open source repositories to be configured such that builds, using tools such as TravisCI, CircleCI, or GitHub Actions, can be triggered and/or configured to be triggered, by project maintainers. Conditions for which builds are set to be run are often related to particular forms of branch merges to the main (a.k.a., "master") branch and/or some or all accepted pull requests. 
-
 | Collaboration | | | | 
 | Documentation and Content (Helpful Resources) |
 | Processes and Policies | 
