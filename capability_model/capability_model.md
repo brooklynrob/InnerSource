@@ -47,8 +47,8 @@ The "tick-down" from each capability and its corresponding 4 stages (nascent to 
 
 
 
-# InnerSource Training Topics
-## Background, Context, History
+# InnerSource Training Topics and Readings
+## Open Source Roots
 ### Open Source -- What is it?
 * Open source: A licensing model
 * Open source: A set of development practices
@@ -57,11 +57,18 @@ The "tick-down" from each capability and its corresponding 4 stages (nascent to 
 #### Licensing Models
 ##### Permissive Models
 ##### GPL Family
-##### Evolving Landscape and Controversies
+##### Evolving Landscape, Different Perspectives, and Controversies
 * Amazon and Elastic
-    * 
 * Startup Concerns
 * Open Data / Big Data
-    * (From Snowflake)[Striking a balance with ‘open’ at Snowflake](https://www.infoworld.com/article/3617938/striking-a-balance-with-open-at-snowflake.html)
-    * (A Response from Alex Woodie)[Do Customers Want Open Data Platforms?](https://www.datanami.com/2021/05/24/do-customers-want-open-data-platforms/)
+    * _(From Snowflake) [Striking a balance with ‘open’ at Snowflake](https://www.infoworld.com/article/3617938/striking-a-balance-with-open-at-snowflake.html)_
+    * _(A Response from Alex Woodie) [Do Customers Want Open Data Platforms?](https://www.datanami.com/2021/05/24/do-customers-want-open-data-platforms/)_
+* Commons Tools and Platforms
+    * Git
+        * _[Git Documentation](https://git-scm.com/)_
+        * What is it?
+        * How does it work?
+            * [Understanding Merkle Trees](https://medium.com/geekculture/understanding-merkle-trees-f48732772199)
+
+## InnerSource: Background, Context, History
 
