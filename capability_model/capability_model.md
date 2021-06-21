@@ -72,3 +72,29 @@ The "tick-down" from each capability and its corresponding 4 stages (nascent to 
 
 ## InnerSource: Background, Context, History
 
+
+
+# InnerSource and Open Sourcing Decision Framework
+Below are some questions organiztions may face when considering choices around inner and open sourcing any of their "home-grown" internal projects within their portfolio:
+* Should we "just" inner source or open source the project? Options include:
+    * Inner source only (no foreseeable plans to open source)
+    * Inner source first, then open source
+        * ... open source into organization's own GitHub org (Self-manage/curate/market)
+        * ... open source as contribution to a foundation such as FINOS
+    * Open source now
+        * ... open source into organization's own GitHub org (Self-manage/curate/market)
+        * ... open source as contribution to a foundation such as FINOS
+    * Do nothing (neither inner source or open source)
+
+* Considerations & Key Questions
+    * Does the software produced from the project confer some form of competitive advantage or strategic market power to the organization? Does the code itself represent a trade secret demonstrably worthy of on-going confidentiality?
+        * If the answer to these questions is 'yes', and the software is a form of competitive advantage, then inner sourcing may be more appropriate than outright open sourcing in order to retain the competitive advantage
+    * 
+
+
+# Preparing a Project for Inner and Open Source
+| Theme | Preparation for Inner Source | Additional Work for Open Source |
+|--|--|--|
+| Code Modularity |
+| Abstration & Generalization | | Remove any and all references to any names, brand symbols, trademarks, etc of the contributing organization within the 
+
