@@ -75,21 +75,33 @@ The "tick-down" from each capability and its corresponding 4 stages (nascent to 
 
 
 # InnerSource and Open Sourcing Decision Framework
-Below are some questions organiztions may face when considering choices around inner and open sourcing any of their "home-grown" internal projects within their portfolio:
-* Should we "just" inner source or open source the project? Options include:
+Below are some questions organizations may face when considering choices around the potential inner and open sourcing of any of their "home-grown" internal projects within their portfolio:
+* Should the organizations "just" inner source or, instead, open source the project? Options include:
     * Inner source only (no foreseeable plans to open source)
     * Inner source first, then open source
         * ... open source into organization's own GitHub org (Self-manage/curate/market)
-        * ... open source as contribution to a foundation such as FINOS
+        * ... open source as a new project contribution to a foundation such as FINOS
     * Open source now
         * ... open source into organization's own GitHub org (Self-manage/curate/market)
-        * ... open source as contribution to a foundation such as FINOS
-    * Do nothing (neither inner source or open source)
+        * ... open source as a new project contribution to a foundation such as FINOS
+    * Do nothing (neither inner source nor open source)
 
-* Considerations & Key Questions
-    * Does the software produced from the project confer some form of competitive advantage or strategic market power to the organization? Does the code itself represent a trade secret demonstrably worthy of on-going confidentiality?
-        * If the answer to these questions is 'yes', and the software is a form of competitive advantage, then inner sourcing may be more appropriate than outright open sourcing in order to retain the competitive advantage
-    * 
+* Inner or Open Source: Considerations & Key Questions
+    * Strategic
+        * Does the software produced from the project confer some form of competitive advantage or strategic market power to the organization? Does the code itself represent a trade secret demonstrabably worthy of on-going confidentiality?
+            If the answer to these questions is 'yes', and the software is a form of competitive advantage, then inner sourcing may be more appropriate than outright open sourcing in order to retain the competitive advantage
+        * Could the project create the potential for a new standard or convention that could bring any or all of the following benefits:
+            * The potential to create cross-industry cost savings, including/especially for our own organization?
+            * the adoption of which could de facto confer to our organization some form of first-mover advantage?
+            * Create new product opportunities and/or enhance the value of existing products 
+
+            If project could deliver any of these benefits, consider open sourcing?
+
+    * Readiness and Committment
+        * Are there members of the project core team ready, willing, and able to serve as maintainers?
+            * The expectations of maintainers in an open source community will be higher and 
+
+        * 
 
 
 # Preparing a Project for Inner and Open Source
@@ -97,4 +109,6 @@ Below are some questions organiztions may face when considering choices around i
 |--|--|--|
 | Code Modularity |
 | Abstration & Generalization | | Remove any and all references to any names, brand symbols, trademarks, etc of the contributing organization within the 
+| Maintainers | Individuals from the core team can serve as maintainers and already have, or will receive ahead of inner sourcing, training and experience with the role of a maintainer in an inner (or open) project | The 
+| Launch PR | A launch communication about the project is drafted and tee-ed up to be shared a senior manager or executive who a significant connnection the the project and/or the organization's inner and open source program. | A public form of communication. If the project is being contributed into a foundation, .... 
 
