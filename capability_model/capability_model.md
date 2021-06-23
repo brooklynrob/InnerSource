@@ -75,12 +75,12 @@ The "tick-down" from each capability and its corresponding 4 stages (nascent to 
 
 
 # InnerSource and Open Sourcing Decision Framework
-Below are some questions organizations may face when considering choices around the potential inner and open sourcing of any of their "home-grown" internal projects within their portfolio:
+Below are some questions organizations may face when considering the inner and open sourcing of any of their "home-grown" internal projects:
 * Should the organizations "just" inner source or, instead, open source the project? Options include:
     * Inner source only (no foreseeable plans to open source)
     * Inner source first, then open source
-        * ... open source into organization's own GitHub org (Self-manage/curate/market)
-        * ... open source as a new project contribution to a foundation such as FINOS
+        * ... into organization's own GitHub org, and the organization commits to self-manage, curating, marketing, and building community around the project?
+        * ... open source as a new project contribution to a foundation such as FINOS and avail the project of the foundation's capabilities to do hosting, management, curation, marketing, and community building, either partially or wholly
     * Open source now
         * ... open source into organization's own GitHub org (Self-manage/curate/market)
         * ... open source as a new project contribution to a foundation such as FINOS
@@ -89,26 +89,34 @@ Below are some questions organizations may face when considering choices around 
 * Inner or Open Source: Considerations & Key Questions
     * Strategic
         * Does the software produced from the project confer some form of competitive advantage or strategic market power to the organization? Does the code itself represent a trade secret demonstrabably worthy of on-going confidentiality?
-            If the answer to these questions is 'yes', and the software is a form of competitive advantage, then inner sourcing may be more appropriate than outright open sourcing in order to retain the competitive advantage
+
+            --> If the answer to these questions is 'yes' - i.e.,  the software is a form of competitive advantage - then inner sourcing may be more appropriate than outright open sourcing
         * Could the project create the potential for a new standard or convention that could bring any or all of the following benefits:
             * The potential to create cross-industry cost savings, including/especially for our own organization?
             * the adoption of which could de facto confer to our organization some form of first-mover advantage?
             * Create new product opportunities and/or enhance the value of existing products 
 
-            If project could deliver any of these benefits, consider open sourcing?
+            --> If project could deliver any of these benefits, consider open sourcing.
 
     * Readiness and Committment
         * Are there members of the project core team ready, willing, and able to serve as maintainers?
             * The expectations of maintainers in an open source community will be higher and 
+        * Does the organization have an open source contribution in place? An open source program office?
 
-        * 
+    * Legal and Risk
+        * What are the licenses of the open source libraries, if any (and nearly always there are)? Are there any copy-left type licenses that may manage the license used for the open source? 
+        * Does the project/product in its current form neccessitate upstream commerical/proprietary software? If so, can it be easily de-coupled, abstracted away, and/or replaced with an open source compliant module?
+
+    * Community Development
+        * Does the project use a common language and/or framework? Does the project use popular, well-known libraries? 
+            * Projects that use more estoric languages or patterns may be better left as inner source as 1) the potential contributor base may be small and/or 2) signficicant training and/or support may be required that is beyond the scope of the core project/product itself, which will increase the ratio of curation costs to contribution
 
 
 # Preparing a Project for Inner and Open Source
 | Theme | Preparation for Inner Source | Additional Work for Open Source |
 |--|--|--|
 | Code Modularity |
-| Abstration & Generalization | | Remove any and all references to any names, brand symbols, trademarks, etc of the contributing organization within the 
+| Code Abstration & Generalization | | Remove any and all references to any names, brand symbols, trademarks, etc of the contributing organization within the 
 | Maintainers | Individuals from the core team can serve as maintainers and already have, or will receive ahead of inner sourcing, training and experience with the role of a maintainer in an inner (or open) project | The 
-| Launch PR | A launch communication about the project is drafted and tee-ed up to be shared a senior manager or executive who a significant connnection the the project and/or the organization's inner and open source program. | A public form of communication. If the project is being contributed into a foundation, .... 
+| Launch PR | A launch communication about the project is drafted and tee-ed up to be shared by a senior manager or executive with a significant connnection the the project and/or the organization's inner and open source program. | A public annoucement of the projects' open sourcing and a call for evalution, contribution, or some combination of both as appropriate. This could be a light weight as a external blog post, further supported by social media, and as formal as an emborgoed press release. If the project is being contributed into a foundation, coordinate with, and perhaps delegate to, drafting and distribution of the announcement and/or press release to the foundation team. 
 
